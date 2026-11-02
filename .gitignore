@@ -1,0 +1,41 @@
+# ---------- Python / uv ----------
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Data and models (large or regenerable) ----------
+backend/ML/data/raw/*
+backend/ML/data/preprocessed/*
+backend/ML/models/*
+!backend/ML/data/raw/.gitkeep
+!backend/ML/data/preprocessed/.gitkeep
+!backend/ML/models/.gitkeep
+
+# ---------- Environment and secrets ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Frontend (Node) ----------
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.angular/
+frontend/.next/
+npm-debug.log*
+
+# ---------- Editors and OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
