@@ -1,0 +1,16 @@
+{
+  "threshold": 0.5,
+  "n_test": 13713,
+  "roc_auc": 0.8033,
+  "pr_auc": 0.7865,
+  "accuracy": 0.7323,
+  "precision": 0.7503,
+  "recall_sensitivity": 0.6878,
+  "specificity": 0.7759,
+  "f1": 0.7177,
+  "brier_score": 0.18,
+  "tn": 5376,
+  "fp": 1553,
+  "fn": 2118,
+  "tp": 4666
+}

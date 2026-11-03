@@ -8,3 +8,4 @@ MODELS_DIR = ML_ROOT / "models"
 RANDOM_STATE = 42
 TEST_SIZE = 0.2
 TARGET = "cardio"
+REPORTS_DIR = ML_ROOT / "reports"
